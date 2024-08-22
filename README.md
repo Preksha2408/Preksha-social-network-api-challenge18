@@ -115,7 +115,6 @@ npm run seed
 
 * [Click here for youtube link](https://www.youtube.com/watch?v=MuGmbyqIvak)
 
-* ![Click here for MP4](./public/Social-network-api.mp4)
 
 
 ## Questions 

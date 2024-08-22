@@ -1,0 +1,83 @@
+// utils/data.js
+
+const users = [
+    { username: 'preksha_sangvikar', email: 'prek.ps37@gmail.com' },
+    { username: 'rahul_s', email: 'rahul34@gmail.com' },
+    { username: 'anjinkya', email: 'anjinkya@gmail.com' },
+    { username: 'supriya', email: 'supriya@gmail.com' },
+    { username: 'chinmay', email: 'chinmay@gmail.com' },
+    { username: 'sangeetha', email: 'sangeetha@gmail.com' },
+    { username: 'prasad', email: 'prasad@gmail.com' },
+    { username: 'pradeep', email: 'pradeep@gmail.com' },
+    { username: 'kalpana', email: 'kalpana@gmail.com' },
+    { username: 'disha', email: 'disha@gmail.com' },
+    { username: 'darshan', email: 'darshan@gmail.com' },
+    { username: 'jyothi', email: 'jyothi@gmail.com' },
+    { username: 'megha', email: 'megha@gmail.com' },
+    { username: 'ovi', email: 'ovi@gmail.com' },
+    { username: 'dhruv', email: 'dhruv@gmail.com' },
+    { username: 'saanvi', email: 'saanvi@gmail.com' },
+    { username: 'anjaneeya', email: 'anjaneeya@gmail.com' },
+];
+
+const thoughts = [
+    { thoughtText: 'Just had an amazing day!', username: 'preksha_sangvikar' },
+    { thoughtText: 'Learning MongoDB is fun!', username: 'rahul_s' },
+    { thoughtText: 'Excited for the weekend!', username: 'anjinkya' },
+    { thoughtText: 'Finished a great book!', username: 'supriya' },
+    { thoughtText: 'Had a productive workday!', username: 'chinmay' },
+    { thoughtText: 'Enjoyed a lovely walk in the park.', username: 'sangeetha' },
+    { thoughtText: 'Cooking is therapeutic.', username: 'prasad' },
+    { thoughtText: 'Trying out a new hobby.', username: 'pradeep' },
+    { thoughtText: 'Feeling grateful today.', username: 'kalpana' },
+    { thoughtText: 'Started learning a new language.', username: 'disha' },
+    { thoughtText: 'Went for a run this morning.', username: 'darshan' },
+    { thoughtText: 'Planning a trip soon!', username: 'jyothi' },
+    { thoughtText: 'Just watched a great movie!', username: 'megha' },
+    { thoughtText: 'Enjoyed some quality family time.', username: 'ovi' },
+    { thoughtText: 'Exploring new music genres.', username: 'dhruv' },
+    { thoughtText: 'Had a relaxing day at home.', username: 'saanvi' },
+    { thoughtText: 'Learning new things every day!', username: 'anjaneeya' },
+];
+
+const friends = [
+    { username: 'preksha_sangvikar', friends: ['rahul_s', 'anjinkya', 'supriya'] },
+    { username: 'rahul_s', friends: ['preksha_sangvikar', 'chinmay', 'sangeetha'] },
+    { username: 'anjinkya', friends: ['preksha_sangvikar', 'prasad', 'pradeep'] },
+    { username: 'supriya', friends: ['preksha_sangvikar', 'kalpana', 'disha'] },
+    { username: 'chinmay', friends: ['rahul_s', 'darshan', 'jyothi'] },
+    { username: 'sangeetha', friends: ['rahul_s', 'megha', 'ovi'] },
+    { username: 'prasad', friends: ['anjinkya', 'dhruv', 'saanvi'] },
+    { username: 'pradeep', friends: ['anjinkya', 'anjaneeya', 'preksha_sangvikar'] },
+    { username: 'kalpana', friends: ['supriya', 'disha', 'darshan'] },
+    { username: 'disha', friends: ['supriya', 'kalpana', 'jyothi'] },
+    { username: 'darshan', friends: ['chinmay', 'kalpana', 'megha'] },
+    { username: 'jyothi', friends: ['chinmay', 'disha', 'ovi'] },
+    { username: 'megha', friends: ['sangeetha', 'darshan', 'dhruv'] },
+    { username: 'ovi', friends: ['sangeetha', 'jyothi', 'saanvi'] },
+    { username: 'dhruv', friends: ['prasad', 'megha', 'anjaneeya'] },
+    { username: 'saanvi', friends: ['prasad', 'ovi', 'preksha_sangvikar'] },
+    { username: 'anjaneeya', friends: ['pradeep', 'dhruv', 'saanvi'] },
+];
+
+const reactions = [
+    { reactionBody: 'That sounds amazing!', username: 'rahul_s' },
+    { reactionBody: 'Totally agree!', username: 'anjinkya' },
+    { reactionBody: 'Have a great weekend!', username: 'supriya' },
+    { reactionBody: 'Which book did you finish?', username: 'chinmay' },
+    { reactionBody: 'Keep it up!', username: 'sangeetha' },
+    { reactionBody: 'Sounds peaceful.', username: 'prasad' },
+    { reactionBody: 'I love cooking too!', username: 'pradeep' },
+    { reactionBody: 'What hobby are you trying?', username: 'kalpana' },
+    { reactionBody: 'Gratitude is the key.', username: 'disha' },
+    { reactionBody: 'Good luck!', username: 'darshan' },
+    { reactionBody: 'Way to go!', username: 'jyothi' },
+    { reactionBody: 'Have fun!', username: 'megha' },
+    { reactionBody: 'What did you watch?', username: 'ovi' },
+    { reactionBody: 'Family time is the best.', username: 'dhruv' },
+    { reactionBody: 'Music is life.', username: 'saanvi' },
+    { reactionBody: 'Relaxation is important.', username: 'anjaneeya' },
+    { reactionBody: 'Keep learning!', username: 'preksha_sangvikar' },
+];
+
+module.exports = { users, thoughts, friends, reactions };

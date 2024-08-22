@@ -86,29 +86,29 @@ npm run seed
 
 ## Screenshots 
 
-* ![Get all users](./public/Get-all-users.png)
+* [Get all users](./public/Get-all-users.png)
 
-* ![Post user](./public/Post-user.png)
+* [Post user](./public/Post-user.png)
 
-* ![Update a user](./public/Update-a-user.png)
+* [Update a user](./public/Update-a-user.png)
 
-* ![Delete a user](./public/Delete-a-user.png)
+* [Delete a user](./public/Delete-a-user.png)
 
-* ![Get all thoughts](./public/Get-all-thoughts.png)
+* [Get all thoughts](./public/Get-all-thoughts.png)
 
-* ![Update a thought](./public/Update-a-thought.png)
+* [Update a thought](./public/Update-a-thought.png)
 
-* ![Delete a thought](./public/Delete-a-thought.png)
+* [Delete a thought](./public/Delete-a-thought.png)
 
-* ![Post a thought](./public/Post-a-thought.png)
+* [Post a thought](./public/Post-a-thought.png)
 
-* ![Create a reaction](./public/Create-a-reaction.png)
+* [Create a reaction](./public/Create-a-reaction.png)
 
-* ![Delete a reaction](./public/Delete-a-reaction.png)
+* [Delete a reaction](./public/Delete-a-reaction.png)
 
-* ![Add a friend](./public/Add-a-friend.png)
+* [Add a friend](./public/Add-a-friend.png)
 
-* ![Delete a friend](./public/Delete-a-friend.png)
+* [Delete a friend](./public/Delete-a-friend.png)
 
 
 ## Demo 
